@@ -1,0 +1,52 @@
+.wpc-notice {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.wpc-notice .wpc-notice-thumbnail {
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-right: 10px;
+    width: 40%;
+    flex: 0 0 40%;
+}
+
+.wpc-notice .wpc-notice-thumbnail a {
+    display: block;
+    outline: none;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.wpc-notice .wpc-notice-thumbnail img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.wpc-notice .wpc-notice-ul {
+    margin-bottom: 0;
+}
+
+.wpc-notice .wpc-notice-ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.wpc-notice .wpc-notice-ul li a {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.wpc-notice .wpc-notice-text h3 {
+    margin: 0 0 10px 0;
+    font-weight: 700;
+}
+
+.wpc-notice .wpc-notice-text p {
+    font-size: 14px;
+}
